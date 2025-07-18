@@ -1,0 +1,224 @@
+# Dependencies
+**/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+out/
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+# Comment in the public line in if your project uses Gatsby and not Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# Vite build output
+dist/
+dist-ssr/
+
+# Rollup build output
+build/
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Tauri specific
+src-tauri/target/
+src-tauri/Cargo.lock
+
+# Rust specific
+target/
+Cargo.lock
+**/*.rs.bk
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Application specific
+# Backup files
+*.backup
+*.bak
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated documentation
+docs/api/
+docs/build/
+
+# Test reports
+test-results/
+coverage/
+
+# Config files that shouldn't be shared
+config/local.json
+config/production.json
+config/development.json
+
+# Local development files
+.local/
+local/
+
+# Cache directories
+.cache/
+.tmp/
+
+# Build artifacts
+*.tgz
+*.tar.gz
+
+# Editor config (keep .editorconfig but ignore editor-specific)
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Ignore all .env files except .env.example
+.env*
+!.env.example
+
+# Ignore lock files (uncomment if using npm instead of yarn)
+# package-lock.json
+
+# Tauri app bundle
+src-tauri/target/
+bundle/
+
+# Generated icons
+src-tauri/icons/
+
+# Auto-generated files
+auto-imports.d.ts
+components.d.ts
+
+# Sentry
+.sentryclirc
+
+# Local Netlify folder
+.netlify
+
+# Storybook build outputs
+storybook-static

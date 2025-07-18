@@ -1,0 +1,133 @@
+/* Theme-specific styles */
+
+/* Tech theme specific styles */
+.theme-tech {
+  /* Tech theme can have specific overrides */
+}
+
+.theme-tech .glass-panel {
+  background: rgba(6, 182, 212, 0.05);
+  border-color: rgba(6, 182, 212, 0.2);
+}
+
+.theme-tech .btn-primary {
+  background: linear-gradient(135deg, rgb(var(--theme-primary)), rgb(var(--theme-accent)));
+  border-color: rgb(var(--theme-primary));
+}
+
+.theme-tech .btn-primary:hover {
+  background: linear-gradient(135deg, rgb(var(--theme-primary-dark)), rgb(var(--theme-accent-dark)));
+}
+
+/* Nature theme specific styles */
+.theme-nature .glass-panel {
+  background: rgba(34, 197, 94, 0.05);
+  border-color: rgba(34, 197, 94, 0.2);
+}
+
+.theme-nature .btn-primary {
+  background: linear-gradient(135deg, rgb(var(--theme-primary)), rgb(var(--theme-accent)));
+  border-color: rgb(var(--theme-primary));
+}
+
+/* Business theme specific styles */
+.theme-business .glass-panel {
+  background: rgba(100, 116, 139, 0.05);
+  border-color: rgba(100, 116, 139, 0.2);
+}
+
+.theme-business .btn-primary {
+  background: linear-gradient(135deg, rgb(var(--theme-primary)), rgb(var(--theme-accent)));
+  border-color: rgb(var(--theme-primary));
+}
+
+/* Sunset theme specific styles */
+.theme-sunset .glass-panel {
+  background: rgba(249, 115, 22, 0.05);
+  border-color: rgba(249, 115, 22, 0.2);
+}
+
+.theme-sunset .btn-primary {
+  background: linear-gradient(135deg, rgb(var(--theme-primary)), rgb(var(--theme-accent)));
+  border-color: rgb(var(--theme-primary));
+}
+
+/* Ocean theme specific styles */
+.theme-ocean .glass-panel {
+  background: rgba(14, 165, 233, 0.05);
+  border-color: rgba(14, 165, 233, 0.2);
+}
+
+.theme-ocean .btn-primary {
+  background: linear-gradient(135deg, rgb(var(--theme-primary)), rgb(var(--theme-accent)));
+  border-color: rgb(var(--theme-primary));
+}
+
+/* Global theme-aware components */
+.theme-primary-bg {
+  background-color: rgb(var(--theme-primary));
+}
+
+.theme-primary-text {
+  color: rgb(var(--theme-primary));
+}
+
+.theme-accent-bg {
+  background-color: rgb(var(--theme-accent));
+}
+
+.theme-accent-text {
+  color: rgb(var(--theme-accent));
+}
+
+.theme-bg {
+  background-color: rgb(var(--theme-bg));
+}
+
+.dark .theme-bg {
+  background-color: rgb(var(--theme-bg-dark));
+}
+
+/* Enhanced button styles with theme colors */
+.btn-theme-primary {
+  background: linear-gradient(135deg, rgb(var(--theme-primary)), rgb(var(--theme-accent)));
+  color: white;
+  border: 1px solid rgb(var(--theme-primary));
+}
+
+.btn-theme-primary:hover {
+  background: linear-gradient(135deg, rgb(var(--theme-primary-dark)), rgb(var(--theme-accent-dark)));
+  border-color: rgb(var(--theme-primary-dark));
+  transform: translateY(-1px);
+  box-shadow: 0 10px 25px rgba(var(--theme-primary), 0.3);
+}
+
+/* Theme-aware glass effects */
+.glass-theme {
+  background: rgba(var(--theme-primary), 0.05);
+  border: 1px solid rgba(var(--theme-primary), 0.2);
+  backdrop-filter: blur(12px);
+}
+
+.dark .glass-theme {
+  background: rgba(var(--theme-primary), 0.1);
+  border-color: rgba(var(--theme-primary), 0.3);
+}
+
+/* Theme-aware status indicators */
+.status-theme {
+  background: rgb(var(--theme-accent));
+}
+
+.status-theme::before {
+  background: rgb(var(--theme-accent));
+}
+
+/* Theme-aware dividers */
+.divider-theme {
+  border-color: rgba(var(--theme-primary), 0.2);
+}
+
+.dark .divider-theme {
+  border-color: rgba(var(--theme-primary), 0.3);
+}
