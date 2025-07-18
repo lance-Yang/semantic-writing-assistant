@@ -7,6 +7,11 @@
 ![React](https://img.shields.io/badge/React-18+-61DAFB.svg)
 ![Tauri](https://img.shields.io/badge/Tauri-1.5+-FFC131.svg)
 
+# 部分界面截图
+![png](https://github.com/lance-Yang/semantic-writing-assistant/blob/main/image.png)
+![png](https://github.com/lance-Yang/semantic-writing-assistant/blob/main/image2.png)
+![png](https://github.com/lance-Yang/semantic-writing-assistant/blob/main/image3.png)
+
 ## ✨ 主要特性
 
 ### 🤖 AI智能写作
