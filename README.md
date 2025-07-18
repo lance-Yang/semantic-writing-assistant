@@ -9,8 +9,10 @@
 
 # 部分界面截图
 ![png](https://github.com/lance-Yang/semantic-writing-assistant/blob/main/image.png)
-![png](https://github.com/lance-Yang/semantic-writing-assistant/blob/main/image2.png)
-![png](https://github.com/lance-Yang/semantic-writing-assistant/blob/main/image3.png)
+
+![png](https://github.com/lance-Yang/semantic-writing-assistant/blob/main/image2.jpg)
+
+![png](https://github.com/lance-Yang/semantic-writing-assistant/blob/main/image3.jpg)
 
 ## ✨ 主要特性
 
