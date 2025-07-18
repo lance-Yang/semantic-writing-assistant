@@ -1,4 +1,4 @@
-# 🚀 Semantic Writing Assistant
+# 🚀 Semantic Writing Assistant(功能未完善，部分界面也没优化)
 
 一个基于AI的智能写作助手，提供全方位的文本创作、编辑和优化功能。支持多种AI模型，具备语义分析、智能建议、多语言翻译等强大功能。
 
@@ -10,9 +10,9 @@
 # 部分界面截图
 ![png](https://github.com/lance-Yang/semantic-writing-assistant/blob/main/image.png)
 
-![png](https://github.com/lance-Yang/semantic-writing-assistant/blob/main/image2.jpg)
+![jpg](https://github.com/lance-Yang/semantic-writing-assistant/blob/main/image2.jpg)
 
-![png](https://github.com/lance-Yang/semantic-writing-assistant/blob/main/image3.jpg)
+![jpg](https://github.com/lance-Yang/semantic-writing-assistant/blob/main/image3.jpg)
 
 ## ✨ 主要特性
 
